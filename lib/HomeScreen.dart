@@ -118,7 +118,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     )
                 ),
               ),
-              Container(
+              /*Container(
                 height: 90,
                 child: ListView.builder(
                   shrinkWrap: true,
@@ -130,7 +130,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       );
                     }
                 ),
-              )
+              )*/
             ],
           ),
         ),
