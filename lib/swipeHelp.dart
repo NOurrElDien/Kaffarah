@@ -38,20 +38,3 @@ List<Dish> recommendedDishes = [
   ),
 ];
 
-List<Dish> favouriteDishes = [
-  Dish(
-    image: 'assets/images/meal3.jpg',
-    name: 'Fav Meal Number 1',
-    price: 'kaffarat',
-  ),
-  Dish(
-    image: 'assets/images/meal2.jpg',
-    name: 'Fav Meal Number 2',
-    price: 'namaa project',
-  ),
-  Dish(
-    image: 'assets/images/meal1.jpg',
-    name: 'Fav Meal Number 3',
-    price: 'kaffarat',
-  ),
-];
