@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:kaffarah_na/swipeHelp.dart';
 
-class DishContainer extends StatelessWidget {
+class KaffarahContainer extends StatelessWidget {
   final int index;
   final int i;
 
-  const DishContainer({Key key, this.index, this.i}) : super(key: key);
+  const KaffarahContainer({Key key, this.index, this.i}) : super(key: key);
 
 
   @override
@@ -34,7 +34,7 @@ class DishContainer extends StatelessWidget {
                     children: [
                       Text(recommendedDishes[i].name, style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500,color: i == index ? Colors.white : Colors.black),),
                       SizedBox(height: 10,),
-                      Text('>> ' + recommendedDishes[i].price.toString() + ' <<', style: TextStyle(fontSize: 15,color: i == index ? Colors.white : Colors.black),),
+                      Text('>> ' + recommendedDishes[i].category.toString() + ' <<', style: TextStyle(fontSize: 15,color: i == index ? Colors.white : Colors.black),),
                     ],
                   ),
                   Row(

@@ -1,40 +1,40 @@
 class Dish {
   String image;
   String name;
-  String price;
+  String category;
 
   Dish({
     this.image,
     this.name,
-    this.price,
+    this.category,
   });
 }
 
 List<Dish> recommendedDishes = [
   Dish(
-    image: 'assets/images/dish1.png',
+    image: 'assets/images/kaffara1.png',
     name: 'The Oath an..',
-    price: 'kaffarat',
+    category: 'kaffarat',
   ),
   Dish(
-    image: 'assets/images/dish2.png',
+    image: 'assets/images/kaffara2.png',
     name: 'The Vow',
-    price: 'kaffarat',
+    category: 'kaffarat',
   ),
   Dish(
-    image: 'assets/images/dish3.png',
+    image: 'assets/images/kaffara3.png',
     name: 'Ebraa AlZem..',
-    price: 'kaffarat',
+    category: 'kaffarat',
   ),
   Dish(
-    image: 'assets/images/dish4.png',
+    image: 'assets/images/kaffara4.png',
     name: 'The Fasting',
-    price: 'Zakat',
+    category: 'Zakat',
   ),
   Dish(
-    image: 'assets/images/dish5.png',
+    image: 'assets/images/kaffara5.png',
     name: 'Al Aqeeqah',
-    price: 'kaffarat',
+    category: 'kaffarat',
   ),
 ];
 

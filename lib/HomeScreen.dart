@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kaffarah_na/swipeHelp.dart';
-import 'package:kaffarah_na/widgets/DishContainer.dart';
+import 'package:kaffarah_na/widgets/KaffarahContainer.dart';
 import 'package:kaffarah_na/widgets/FavouriteContainer.dart';
 import 'package:md2_tab_indicator/md2_tab_indicator.dart';
 
@@ -79,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     controller: PageController(viewportFraction: 0.7),
                     onPageChanged: (int index)=>setState(()=>_index=index),
                     itemBuilder: (BuildContext context, int i){
-                      return DishContainer(
+                      return KaffarahContainer(
                         index:_index,
                         i:i
                       );
